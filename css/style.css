@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-image: linear-gradient(to top, rgb(247, 215, 215), rgb(228, 92, 92));
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.cardShow {
+    width: 400px;
+    background-color: #ffbaac;
+    /* height: 160px; */
+    border: 1px solid rgb(241, 58, 58);
+    border-radius: 5px;
+    margin: 180px auto;
+    overflow: hidden;
+    position: relative;
+    padding: 8px;
+    box-shadow: 0px 8px 8px 0px rgb(255, 68, 68);
+}
+
+p {
+    padding: 10px;
+}
+
+.nextBtn {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(to top, rgb(235, 66, 66), rgb(233, 142, 142));
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.showQoute {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.author {
+    text-align: center;
+    margin-top: 4px;
+    border-bottom: 2px solid black;
+}
+
+.nextBtn:active {
+    color: black;
+}
